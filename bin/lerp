@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+const mod = require('../index')
+const lerp = process.argv.findIndex((e) => e === '/usr/local/bin/lerp')
+console.log(mod(process.argv[lerp + 1], process.argv[lerp + 2], process.argv[lerp + 3]))

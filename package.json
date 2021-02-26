@@ -1,0 +1,12 @@
+{
+  "name": "lerp",
+  "version": "0.0.1",
+  "description": "Linear Interpolation",
+  "main": "index.js",
+  "bin": {
+    "lerp": "bin/lerp"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
